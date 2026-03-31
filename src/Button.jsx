@@ -1,14 +1,14 @@
 function Button (props) {
 
-    const { type } = props;
+    const { type, disabled } = props;
     // typeをpropsから取得
 
-    const handleClick = () => {
-        alert('クリックされました');
-    }
+    // const handleClick = () => {
+    //     alert('クリックされました');
+    // }
 
     return (
-        <button type="button" onClick={handleClick}>
+        <button type={type}  >
             <span>クリック</span>
         </button>
     )
