@@ -10,7 +10,9 @@ function App() {
   return (
     <>
       <h1>Hello World</h1>
-      <Button type="submit" disabled={true} />
+      <Button type="submit" disabled={false} >
+        <span>クリック</span>
+      </Button>
     </>
   )
 }
