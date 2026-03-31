@@ -34,6 +34,7 @@ export default [
         { allowConstantExport: true },
       ],
       "no-undef": "error",
+      "no-unused-vars": "error",
     },
   },
 ]
