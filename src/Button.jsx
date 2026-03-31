@@ -1,4 +1,7 @@
-function Button () {
+function Button (props) {
+
+    const { type } = props;
+    // typeをpropsから取得
 
     const handleClick = () => {
         alert('クリックされました');
