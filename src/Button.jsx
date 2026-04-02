@@ -1,6 +1,6 @@
 function Button (props) {
 
-    const { type, disabled, children} = props;
+    const { type, disabled, children, onClick} = props;
     // typeをpropsから取得
 
     // const handleClick = () => {
@@ -8,7 +8,7 @@ function Button (props) {
     // }
 
     return (
-        <button type={type} disabled={disabled} >
+        <button type={type} disabled={disabled} onClick={onClick} >
             {children}
         </button>
     )
