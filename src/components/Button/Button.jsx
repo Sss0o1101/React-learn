@@ -12,10 +12,12 @@ function Button (props) {
     //     alert('クリックされました');
     // }
 
-    
+    const handleClick () => {
+        setCount(count + 1)
+    }
 
     return (
-        <button className={style.button} type={type} disabled={disabled}  >
+        <button className={style.button} type={type} disabled={disabled} onClick={handleClick} >
             {children}
         </button>
     )
