@@ -1,6 +1,7 @@
 import './App.css'
 //import Button from './Button.jsx'
-import Button from './Button'
+//import Button from './Button'
+import Button from './components/Button/Button.jsx'
 
 
 function App() {
@@ -14,7 +15,7 @@ function App() {
   return (
     <>
       <h1>Hello World</h1>
-      <Button type="button" disabled={false} onClick={handleClick} >
+      <Button type="button" disabled={false} >
         <span>クリック</span>
       </Button>
     </>
