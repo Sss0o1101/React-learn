@@ -3,7 +3,7 @@ import style from './Button.module.css';
 
 function Button (props) {
 
-    const { type, disabled, children, onClick} = props;
+    const { type, disabled, children,} = props;
     // typeをpropsから取得
 
     // const handleClick = () => {
