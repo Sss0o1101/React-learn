@@ -18,7 +18,7 @@ function Button (props) {
 
     return (
         <button className={style.button} type={type} disabled={disabled} onClick={handleClick} >
-            {children}
+            カウント: {count}
         </button>
     )
 };
