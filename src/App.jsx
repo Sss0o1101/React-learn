@@ -6,10 +6,7 @@ import Button from './components/Button/Button.jsx'
 
 function App() {
 
-  const handleClick = () => {
-    console.log('Button clicked');
-
-  }
+  
 
 
   return (
