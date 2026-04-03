@@ -3,6 +3,7 @@ import { useState } from 'react';
 
 
 function Button (props) {
+    const [count, setCount] = useState(0)
 
     const { type, disabled, children,} = props;
     // typeをpropsから取得
@@ -10,6 +11,8 @@ function Button (props) {
     // const handleClick = () => {
     //     alert('クリックされました');
     // }
+
+    
 
     return (
         <button className={style.button} type={type} disabled={disabled}  >
