@@ -5,14 +5,14 @@ import { useState } from 'react';
 function Button (props) {
     const [count, setCount] = useState(0)
 
-    const { type, disabled, } = props;
+    const { type, disabled } = props;
     // typeをpropsから取得
 
     // const handleClick = () => {
     //     alert('クリックされました');
     // }
 
-    const handleClick () => {
+    const handleClick = () => {
         setCount(count + 1)
     }
 
