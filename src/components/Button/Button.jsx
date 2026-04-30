@@ -3,7 +3,7 @@ import style from './Button.module.css';
 
 
 function Button (props) {
-    const [count, setCount] = useState(0)
+    //const [count, setCount] = useState(0)
 
     const { type, disabled } = props;
     // typeをpropsから取得
@@ -12,9 +12,9 @@ function Button (props) {
     //     alert('クリックされました');
     // }
 
-    const handleClick = () => {
-        setCount(count + 1)
-    }
+   // const handleClick = () => {
+   //     setCount(count + 1)
+   // }
 
     return (
         <button className={style.button} type={type} disabled={disabled} onClick={handleClick} >
