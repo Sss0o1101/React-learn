@@ -18,7 +18,9 @@ function App() {
   return (
     <>
       <h1>Hello World</h1>
-      <Button type="button" disabled={false} onClick={handleClick} />
+      <Button type="button" disabled={false} onClick={handleClick} >
+        カウント: {count}
+      </Button>
     </>
   )
 }
