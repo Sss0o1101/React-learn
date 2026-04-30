@@ -1,3 +1,4 @@
+import { Children } from 'react';
 import style from './Button.module.css';
 //import { useState } from 'react';
 
@@ -5,7 +6,7 @@ import style from './Button.module.css';
 function Button (props) {
     //const [count, setCount] = useState(0)
 
-    const { type, disabled, handleClick } = props;
+    const { type, disabled, handleClick, children } = props;
     // typeをpropsから取得
 
     // const handleClick = () => {
@@ -18,7 +19,7 @@ function Button (props) {
 
     return (
         <button className={style.button} type={type} disabled={disabled} onClick={handleClick} >
-            カウント: {count}
+            {children}
         </button>
     )
 };
