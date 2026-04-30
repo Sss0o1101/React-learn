@@ -5,7 +5,7 @@ import style from './Button.module.css';
 function Button (props) {
     //const [count, setCount] = useState(0)
 
-    const { type, disabled } = props;
+    const { type, disabled, handleClick } = props;
     // typeをpropsから取得
 
     // const handleClick = () => {
