@@ -5,6 +5,8 @@ import Button from './components/Button/Button.jsx'
 
 
 function App() {
+  const [count, setCount] = useState(0)
+
 
 
 
