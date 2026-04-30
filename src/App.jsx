@@ -6,6 +6,9 @@ import Button from './components/Button/Button.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
+  const handleClick = () => {
+        setCount(count + 1)
+    }
 
 
 
