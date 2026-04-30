@@ -1,4 +1,4 @@
-function Display(params) {
+function Display(props) {
     return (
         <div>
             <p>カウント: {count}</p>
