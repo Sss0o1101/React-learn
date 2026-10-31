@@ -15,7 +15,7 @@ function App() {
 
   useEffect (() => {
     console.log('count', count);
-    if (count > 15) {
+    if (count > 11) {
       setCount(0)
     }
   }, [count])
