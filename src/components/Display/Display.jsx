@@ -1,8 +1,12 @@
+import { useState } from 'react';
+
 function Display(props) {
-    const { count } = props;
+
+    const [text, setText] = useState("Loading...");
+
     return (
         <div>
-            <p>カウント: {count}</p>
+            {text}
         </div>
     )
 }
