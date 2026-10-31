@@ -13,12 +13,12 @@ function App() {
         setCount(count + 1)
   }
 
-  useEffect (() => {
-    console.log('count', count);
-    if (count > 11) {
-      setCount(0)
-    }
-  }, [count])
+  // useEffect (() => {
+  //   console.log('count', count);
+  //   if (count > 11) {
+  //     setCount(0)
+  //   }
+  // }, [count])
 
 
 
