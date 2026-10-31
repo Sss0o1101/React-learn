@@ -5,7 +5,10 @@ function Display(props) {
     const [text, setText] = useState("Loading...");
 
     useEffect(() => {
-        setText(`カウント: ${props.count}`)
+        setTimeout(() => {
+            setText(`カウント: ${props.count}`)
+        }, 2000);
+
     }, [])
 
     return (
