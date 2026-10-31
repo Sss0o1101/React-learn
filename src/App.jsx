@@ -11,7 +11,13 @@ function App() {
   const [count, setCount] = useState(0)
   const handleClick = () => {
         setCount(count + 1)
-    }
+  }
+
+  useEffect (() =>{
+    console.log('count', count);
+  }, [count])
+
+
 
 
 
