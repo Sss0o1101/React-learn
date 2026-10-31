@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import './App.css'
 //import Button from './Button.jsx'
 //import Button from './Button'
@@ -13,8 +13,11 @@ function App() {
         setCount(count + 1)
   }
 
-  useEffect (() =>{
+  useEffect (() => {
     console.log('count', count);
+    if (count > 15) {
+      setCount(0)
+    }
   }, [count])
 
 
