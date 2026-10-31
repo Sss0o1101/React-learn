@@ -4,7 +4,9 @@ function Display(props) {
 
     const [text, setText] = useState("Loading...");
 
-    useEffect(() => {}, [])
+    useEffect(() => {
+        setText(`カウント: ${props.count}`)
+    }, [])
 
     return (
         <div>
