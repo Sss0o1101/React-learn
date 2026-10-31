@@ -1,8 +1,10 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 function Display(props) {
 
     const [text, setText] = useState("Loading...");
+
+    useEffect(() => {}, [])
 
     return (
         <div>
